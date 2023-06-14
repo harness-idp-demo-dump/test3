@@ -15,10 +15,10 @@ spec:
         app: nextjs
     spec:
       containers:
-      - name: nextjs
-        image:
-          registry: "gcr.io"
-          repository: "idp-play/test3"
-          tag: latest
-        ports:
-        - containerPort: 3000
+        - name: nextjs
+          image:
+            registry: "gcr.io"
+            repository: "idp-play/test3"
+            tag: latest
+          ports:
+          - containerPort: 3000
