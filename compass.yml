@@ -1,0 +1,17 @@
+name: test3
+id: ari:cloud:compass:407b6404-df7b-4b78-aaa1-79f55abc6313:component/86839159-4f0f-49b6-90d7-745595ddddf3/d672da63-3774-4d65-aeea-93535895ea1b
+description: test3 - A Next.js app
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/harness-idp-demo-dump/test3
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:css
+  - source:github
+customFields: null
